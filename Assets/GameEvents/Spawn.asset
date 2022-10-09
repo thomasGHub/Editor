@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameFeedbacks:
   - id: 0
+  - id: 1
   gameObject: {fileID: 0}
   references:
     version: 1
     00000000:
+      type: {class: WaitFeedback, ns: , asm: Assembly-CSharp}
+      data:
+        timer: 2
+    00000001:
       type: {class: InstantiateFeedback, ns: , asm: Assembly-CSharp}
       data:
         prefab: {fileID: 390710167422474285, guid: 6d177b181c7fc6446886ed33c53b29ba, type: 3}
